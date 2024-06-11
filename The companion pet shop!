@@ -1,0 +1,678 @@
+print ("\t\t\t\t\t" "\033[1;32;94m" "\033[1m""\033[4m"  'WELCOME TO COMPANION PETS SHOP!!!'"\033[0m")
+print("\n REVIEWS:" "\033[93m" "\033[1m", "*"*5, "\033[0m")
+print('''\n LOCATION: No:14,block No:338, 2nd Ave, 
+          Ranganathan Garden, 
+          Anna Nagar,
+          chennai-40.''')
+print("\n CONTACT: 9360145689")
+print("\n BUISNESS HOURS:from 9:30 AM to 10:00 PM")
+print("\n YEAR OF ESTABLISHMENT: 2020")
+print("\n MAIL: Nivethasubburaj92@gmail.com\n")
+a=input('Enter your desired companion(pet) catergory:[dog/cat/fish/]-').lower()
+b=["dog","cat","fish"]
+if a in b:
+    print("your desired companion(pet) is available")
+else:
+    print("sorry your companion(pet) is currently unavailable")
+def rajapalayam():
+    print("Rajapalayam is the best choice")
+    gender=input("decide your companion's(pet) gender:[male/female]-").lower()
+    if gender=='male':
+        print("your companion's(pet) price ranges from 14000 to 18000")
+        price=input("select your companion's price:[14000/15000/16000/17000/18000]")
+        pri=["14000","15000","16000","17000","18000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[black/brown/tan/white/brown with white/black with white]-").lower()
+            colo=["black","brown","tan","white","brown with white","black with white"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]-").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!
+                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    
+    elif gender=='female':
+        print("your companion's(pet) price ranges from 10000 to 14000")
+        price=(input("select your companion's price:[10000/11000/12000/13000/14000]"))
+        pri=["10000","11000","12000","13000","14000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[black/brown/tan/white/brown with white/black with white]-").lower()
+            colo=["black","brown","tan","white","brown with white","black with white"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]-").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!!!
+                                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    else:
+        print('sorry not available')
+
+def chippiparai():
+    print("chippiparai is the best choice")
+    gender=input("decide your companion's(pet) gender:[male/female] -  ").lower()
+    if gender=='male':
+        print("your companion's(pet) price ranges from 7000 to 12000")
+        price=input("select your companion's price:[7000/8000/9000/10000/12000]   - ")
+        pri=["6000","7000","8000","9000","10000","12000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[black/brown/tan/white/brown with white/black with white]  -   ").lower()
+            colo=["black","brown","tan","white","brown with white","black with white"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!
+                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    
+    elif gender=='female':
+        print("your companion's(pet) price ranges from 6000 to 10000")
+        price=(input("select your companion's price:[6000/7000/8000/9000/10000] -  "))
+        pri=["6000","7000","8000","9000","10000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[black/brown/tan/white/brown with white/black with white] -  ").lower()
+            colo=["black","brown","tan","white","brown with white","black with white"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!!!
+                                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    else:
+        print('sorry not available')
+def kombai():
+    print("kombai is the best choice")
+    gender=input("decide your companion's(pet) gender:[male/female] -  ").lower()
+    if gender=='male':
+        print("your companion's(pet) price ranges from 6000 to 8000")
+        price=input("select your companion's price:[6000/7000/8000]   - ")
+        pri=["6000","7000","8000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[black/brown/white/black with white]  -   ").lower()
+            colo=["black","brown","white","black with white"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!
+                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    
+    elif gender=='female':
+        print("your companion's(pet) price ranges from 5000 to 8000")
+        price=(input("select your companion's price:[5000/6000/7000/8000] -  "))
+        pri=["5000","6000","7000","8000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[black/brown/tan/white] -  ").lower()
+            colo=["black","brown","tan","white"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!!!
+                                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    else:
+        print('sorry not available')
+
+def germansheperd():
+    print("germansheperd is the best choice")
+    gender=input("decide your companion's(pet) gender:[male/female] -  ").lower()
+    if gender=='male':
+        print("your companion's(pet) price ranges from 20000 to 45000")
+        price=input("select your companion's price:[20000/25000/30000/35000/40000/45000]   - ")
+        pri=["20000","25000","30000","35000","40000","45000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[black and tan/bicolour/solid black]  -   ").lower()
+            colo=["black and tan","bicolour","solid black"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!
+                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    
+    elif gender=='female':
+        print("your companion's(pet) price ranges from 20000 to 40000")
+        price=(input("select your companion's price:[5000/6000/7000/8000] -  "))
+        pri=["20000","25000","30000","35000","40000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[black and tan/bicolour/solid black] -  ").lower()
+            colo=["black and tan","bicolour","solid black"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!!!
+                                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    else:
+        print('sorry not available')
+
+def labrador():
+    print("labrador is the best choice")
+    gender=input("decide your companion's(pet) gender:[male/female] -  ").lower()
+    if gender=='male':
+        print("your companion's(pet) price ranges from 10000 to 20000")
+        price=input("select your companion's price:[10000/12000/14000/16000/18000/20000]   - ")
+        pri=["10000","12000","14000","16000","18000","20000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[black/yellow/cholocate]  -   ").lower()
+            colo=["black","yellow","cholocate"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!
+                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    
+    elif gender=='female':
+        print("your companion's(pet) price ranges from 20000 to 40000")
+        price=(input("select your companion's price:[10000/12000/14000/16000/18000/20000]  -  "))
+        pri=["10000","12000","14000","16000","18000","20000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[black/yellow/cholocate] -  ").lower()
+            colo=["black","yellow","cholocate"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!!!
+                                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    else:
+        print('sorry not available')
+
+def pug():
+    print("pug is the best choice")
+    gender=input("decide your companion's(pet) gender:[male/female] -  ").lower()
+    if gender=='male':
+        print("your companion's(pet) price ranges from 15000 to 25000")
+        price=input("select your companion's price:[15000/17000/19000/21000/23000/25000]   - ")
+        pri=["15000","17000","19000","21000","23000","25000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[fawn with black face/apricot/full black]  -   ").lower()
+            colo=["fawn with black face","apricot","full black"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!
+                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    
+    elif gender=='female':
+        print("your companion's(pet) price ranges from 20000 to 40000")
+        price=(input("select your companion's price:[8000/10000/12000/14000/16000/20000]  -  "))
+        pri=["8000","10000","12000","14000","16000","20000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[fawn with black face/apricot/full black] -  ").lower()
+            colo=["fawn with black face","apricot","full black"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!!!
+                                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    else:
+        print('sorry not available')
+
+                   
+def dog():
+    typ=input("select your companion breed type[native/foreign]-").lower()
+    if typ=='native':
+        print("nice choice")
+        breed=input("select your companion's(pet) breed:[Rajapalayam/Chippiparai/Kombai]-").lower()
+        bree=["rajapalayam","chippiparai","kombai"]
+        if breed==bree[0]:
+            print("nice choice")
+            rajapalayam()
+        elif breed==bree[1]:
+            print("nice choice")
+            chippiparai()
+        elif breed==bree[2]:
+            print("nice choice")
+            kombai()
+        else:
+            print('sorry not available')
+    if typ=='foreign':
+        print('nice choice')
+        breed=input("select your companion's(pet) breed:[germansheperd/labrador/pug]-").lower()
+        bree=["germansheperd","labrador","pug"]
+        if breed==bree[0]:
+            print("nice choice")
+            germansheperd()
+        elif breed==bree[1]:
+            print("nice choice")
+            labrador()
+        elif breed==bree[2]:
+            print("nice choice")
+            pug()
+        
+        else:
+            print("sorry not available")
+    else:
+        print('sorry not available')
+
+def fishingcat():
+    print("fishing cats are playful and sharp")
+    gender=input("decide your companion's(pet) gender:[male/female] -  ").lower()
+    if gender=='male':
+        print("your companion's(pet) price ranges from 5000 to 25000")
+        price=input("select your companion's price:[15000/17000/19000/21000/23000/25000]   - ")
+        pri=["15000","17000","19000","21000","23000","25000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[fawn with black face/apricot/full black]  -   ").lower()
+            colo=["fawn with black face","apricot","full black"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!
+                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    
+    elif gender=='female':
+        print("your companion's(pet) price ranges from 20000 to 40000")
+        price=(input("select your companion's price:[8000/10000/12000/14000/16000/20000]  -  "))
+        pri=["8000","10000","12000","14000","16000","20000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[fawn with black face/apricot/full black] -  ").lower()
+            colo=["fawn with black face","apricot","full black"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!!!
+                                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    else:
+        print('sorry not available')
+def leopardcat():
+    print("Fiendly and genius cats")
+    gender=input("decide your companion's(pet) gender:[male/female] -  ").lower()
+    if gender=='male':
+        print("your companion's(pet) price ranges from 13000 to 25000")
+        price=input("select your companion's price:[15000/17000/19000/21000/23000/25000]   - ")
+        pri=["15000","17000","19000","21000","23000","25000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[fawn with black face/apricot/full black]  -   ").lower()
+            colo=["fawn with black face","apricot","full black"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!
+                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    
+    elif gender=='female':
+        print("your companion's(pet) price ranges from 20000 to 40000")
+        price=(input("select your companion's price:[8000/10000/12000/14000/16000/20000]  -  "))
+        pri=["8000","10000","12000","14000","16000","20000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[fawn with black face/apricot/full black] -  ").lower()
+            colo=["fawn with black face","apricot","full black"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!!!
+                                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    else:
+        print('sorry not available')
+def persiancat():
+    print("kidsfriendly and cutest cate")
+    gender=input("decide your companion's(pet) gender:[male/female] -  ").lower()
+    if gender=='male':
+        print("your companion's(pet) price ranges from 15000 to 25000")
+        price=input("select your companion's price:[15000/17000/19000/21000/23000/25000]   - ")
+        pri=["15000","17000","19000","21000","23000","25000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[fawn with black face/apricot/full black]  -   ").lower()
+            colo=["fawn with black face","apricot","full black"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!
+                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    
+    elif gender=='female':
+        print("your companion's(pet) price ranges from 30000 to 40000")
+        price=(input("select your companion's price:[8000/10000/12000/14000/16000/20000]  -  "))
+        pri=["8000","10000","12000","14000","16000","20000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[fawn with black face/apricot/full black] -  ").lower()
+            colo=["fawn with black face","apricot","full black"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!!!
+                                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    else:
+        print('sorry not available')
+def siamesecat():
+    print("wonderful choice for great companionship")
+    gender=input("decide your companion's(pet) gender:[male/female] -  ").lower()
+    if gender=='male':
+        print("your companion's(pet) price ranges from 15000 to 25000")
+        price=input("select your companion's price:[15000/17000/19000/21000/23000/25000]   - ")
+        pri=["15000","17000","19000","21000","23000","25000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[fawn with black face/apricot/full black]  -   ").lower()
+            colo=["fawn with black face","apricot","full black"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!
+                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    
+    elif gender=='female':
+        print("your companion's(pet) price ranges from 20000 to 40000")
+        price=(input("select your companion's price:[8000/10000/12000/14000/16000/20000]  -  "))
+        pri=["8000","10000","12000","14000","16000","20000"]
+        if price in pri:
+            print("nice choice")
+            colour=input("enter your companion's(pet) colour:[fawn with black face/apricot/full black] -  ").lower()
+            colo=["fawn with black face","apricot","full black"]
+            if colour in colo:
+                print("nice colour")
+                payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+                pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+                if payment in pay:
+                    print("proceed with your payment")
+                    address=input("enter the address to be delivered:").lower()
+                    print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!!!
+                                                                    thanks for choosing our shop!!!''')
+                else:
+                    print('sorry not available')
+            else:
+                print('sorry not available')
+        else:
+            print('sorry not available')
+    else:
+        print('sorry not available')
+def Golden():
+    print("Colourfull choice, freshwater fish in the family Cyprinidae of order Cypriniformes.")
+    print("The price ranges from Rs 25/piece")
+    a=input("Enter the number of fishes you need to buy: ")
+    print("Great!")
+    payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+    pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+    if payment in pay:
+       print("proceed with your payment")
+       address=input("enter the address to be delivered:").lower()
+       print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!
+                                                    thanks for choosing our shop!!!''')
+    else:
+        print('sorry not available')
+
+def fighter():
+    print("Betta fish are magnificent and make a beautiful addition to your home decor with exotic colours and long fins.")
+    print("Fighter Fish at Rs 12/piece")
+    a=input("Enter the number of fishes you need to buy: ")
+    print("Great!")
+    payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+    pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+    if payment in pay:
+       print("proceed with your payment")
+       address=input("enter the address to be delivered:").lower()
+       print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!
+                                                    thanks for choosing our shop!!!''')
+    else:
+        print('sorry not available')
+    
+def tankcleaner():
+    print("Hillstream are better as algae eaters that can clean off your aquarium walls, plant leaves, and other flat surfaces.")
+    a=input("Enter the number of fishes you need to buy: ")
+    print("Great!")
+    payment=input("choose your payment option:[net banking/debit card/credit card/upi/qr/cash on delivery]  -  ").lower()
+    pay=["net banking","debit card","credit card","upi","qr","cash on delivery"]
+    if payment in pay:
+       print("proceed with your payment")
+       address=input("enter the address to be delivered:").lower()
+       print('\t\t\t\t''\033[1;32;36m' '''your companion will reach you soon!
+                                                    thanks for choosing our shop!!!''')
+    else:
+        print('sorry not available')
+
+    
+        
+        
+def fish():
+    typ=input("select the type of fish u need: [Golden/fighter/tankcleaner]= ")
+    if typ=="Golden":
+        Golden()
+    elif typ=="fighter":
+        fighter()
+    elif typ=="tankcleaner":
+        tankcleaner()
+        
+    else:
+        print("not available")
+    
+
+
+    
+def cat():
+    typ=input("select your companion breed type[native/foreign]-").lower()
+    if typ=='native':
+        print("nice choice")
+        breed=input("select your companion's(pet) breed:[fishingcat/leopardcat]-").lower()
+        bree=['fishingcat','leopardcat']
+        if breed==bree[0]:
+            print("nice choice")
+            fishingcat()
+        elif breed==bree[1]:
+            print("nice choice")
+            leopardcat()
+        
+        else:
+            print('sorry not available')
+    if typ=='foreign':
+        print('nice choice')
+        breed=input("select your companion's(pet) breed:[persian/siamese]-").lower()
+        bree=["persian","siamese"]
+        if breed==bree[0]:
+            print("nice choice")
+            persian()
+        elif breed==bree[1]:
+            print("nice choice")
+            siamese()
+        
+        
+        else:
+            print("sorry not available")
+    else:
+        print('sorry not available')
+            
+if a=='dog':
+    dog()
+elif a=='cat':
+    cat()
+elif a=='fish':
+    fish()
